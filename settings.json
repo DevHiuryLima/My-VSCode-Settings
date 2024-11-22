@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "lucy",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.ignoreMissingGitWarning": true,
+    "workbench.editor.enablePreview": false,
+    "explorer.fileNesting.patterns": {
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+        "*.dart": "${capture}.g.dart",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [80, 120]
+}
